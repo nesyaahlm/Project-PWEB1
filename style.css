@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F4E1;
+    text-align: center;
+}
+
+header {
+    background-image: url(assets/bg1.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 585px;
+    color: white;  
+    transition: 1.5s linear;
+    -moz-transition: 1.5s linear;  
+}
+
+.head {
+    background-color: rgba(255, 100, 43, 0.5);
+    color: black;
+    height: 585px;
+    text-align: center;
+    justify-content: center;
+}
+
+.head-2 {
+    padding-left: 28%;
+    padding-bottom: 20px;
+}
+
+.judul {
+    padding-top: 20%;
+    font-size: 70px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+.judul-isi {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 600px;
+}
+
+.start {
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 45px; 
+    width: 10%;
+    height: 8%;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.start:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: rgba(104, 28, 0, 0.4);
+    transform: translateY(-7px);
+}
+
+.start:active {
+    transform: translateY(-7px);
+}
+
+.start1 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.start1:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: rgba(104, 28, 0, 0.4);
+}
+
+nav {
+    background-color: white;
+    text-decoration: none;
+}
+
+.navbar{
+	background: #ffffff;
+	margin: 0;
+	padding: 20px 30px;
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1 {
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+ 
+.logic {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    height: 30px;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    height: 586px;
+    justify-content: center;
+}
+
+.isi {
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+    justify-content: center;
+    background-color: white;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+}
+
+.main-1 {
+    justify-content: left;
+}
+
+.tentang {
+    width: 500px;
+    margin-bottom: 50px;
+    
+}
+
+.tentang-1 {
+    width: 500px;
+    padding-top: 0px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.satu {
+    font-size: 50px;
+    color: #273F4F;
+}
+
+.foot {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 16px ;
+    font-size: 14px;
+}

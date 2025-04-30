@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 122, 73, 0.9);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar{
+	background: #ffffff;
+	margin: 0;
+	padding: 20px 30px;
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1 {
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+ 
+.logic {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    height: 30px;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+
+.aktiv {
+    justify-content: center;
+    text-align: center;
+    color: white
+}
+
+.satu {
+    background-image: url(bg\ makrab.jpg);
+    background-size: 20px auto;
+    padding: 20px;
+    text-align: center; 
+    color: aliceblue;
+}
+.dua {
+    background-color: rgba(255, 186, 161, 0.9);
+    padding: 10px;
+    text-align: center; 
+    color: aliceblue;
+}
+.tiga {
+    text-align: center; 
+    color: black;
+    font-style: italic;
+    font-family:'Trebuchet MS';
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box, .box1, .box2 {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 800px auto; 
+    height: auto;
+    text-align: justify;
+}
+
+img.animasi-gambar {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s ease, opacity 1s ease;
+    opacity: 0.9;
+}
+
+img.animasi-gambar:hover {
+    transform: scale(1.15);
+    opacity: 1.5;
+}
+
+.link {
+    color: #273F4F
+}

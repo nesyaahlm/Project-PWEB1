@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 122, 73, 0.9);
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    text-decoration: none;
+}
+
+.navbar{
+	background: #ffffff;
+	margin: 0;
+	padding: 20px 30px;
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1 {
+    color: #273F4F;
+    text-decoration: none;
+}
+
+.menu1:hover {
+    color: #000000;
+    transition: 0.3s;
+}
+ 
+.logic {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    height: 30px;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+
+main {
+    background-color: white;
+    height: 586px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.box {
+    background-color: white;
+    padding-top: 10px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
+    color: #273F4F;
+    max-width: 400px;
+    border-radius: 15px;
+    transition: transform 0.5s ease, opacity 1s ease;
+    opacity: 0.9
+}
+
+.box1 {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
+    color: #273F4F;
+    max-width: 400px;
+    border-radius: 15px;
+    transition: transform 0.5s ease, opacity 1s ease;
+    opacity: 0.9
+}
+
+.box2 {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: justify;
+    color: #273F4F;
+    max-width: 300px;
+    border-radius: 15px;
+    transition: transform 0.5s ease, opacity 1s ease;
+    opacity: 0.9
+}
+
+.box1:hover {
+    background-color: gainsboro;
+    transform: scale(1.05);
+    opacity: 1.5;
+}
+
+.box:hover {
+    background-color: gainsboro;
+    transform: scale(1.05);
+    opacity: 1.5;
+}
+
+.box2:hover {
+    background-color: gainsboro;
+    transform: scale(1.05);
+    opacity: 1.5;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.satu {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.dua {
+    cursor: pointer;
+}
+
+.foot {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 16px ;
+    font-size: 14px;
+}
+
+
